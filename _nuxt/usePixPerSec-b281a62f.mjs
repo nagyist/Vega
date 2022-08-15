@@ -1,1 +1,0 @@
-import{e as c}from"./entry-c92142e3.mjs";function a(e){const{timeline:t}=c(),n=t.value.end-t.value.start;return s(e,n)}function s(e,t){return((e==null?void 0:e.getBoundingClientRect().width)||1)/t}export{s as a,a as u};

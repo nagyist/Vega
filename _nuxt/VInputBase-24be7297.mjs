@@ -1,1 +1,0 @@
-import{p as t,a as n,o as _,i as s,m as o}from"./entry-c92142e3.mjs";const p=n({__name:"VInputBase",props:{invalid:{default:!1,type:Boolean}},setup(e){return(a,r)=>(_(),s("input",o(a.$attrs,{class:{invalid:e.invalid}}),null,16))}});var u=t(p,[["__scopeId","data-v-f5811274"]]);export{u as default};
