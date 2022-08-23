@@ -1,0 +1,1 @@
+import{p as t,o as r,i as a,q as n,m as o}from"./entry-3e2f788a.mjs";const s={};function c(e,_){return r(),a("button",o(e.$attrs,{class:"v-btn"}),[n(e.$slots,"default",{},void 0,!0)],16)}var f=t(s,[["render",c],["__scopeId","data-v-5a95488c"]]);export{f as default};
