@@ -1,1 +1,0 @@
-import{p as a,o,i as r,m as t,D as _,E as c,j as s}from"./entry-3e2f788a.mjs";const d={},p=e=>(_("data-v-a020d820"),e=e(),c(),e),i=p(()=>s("svg",{fill:"red"},[s("path",{d:"M-8 0 L0 8 L8 0 Z"})],-1)),n=[i];function l(e,u){return o(),r("div",t(e.$attrs,{ref:"el",class:"cursor"}),n,16)}var m=a(d,[["render",l],["__scopeId","data-v-a020d820"]]);export{m as default};

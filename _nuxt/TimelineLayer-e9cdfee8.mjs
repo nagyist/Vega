@@ -1,0 +1,1 @@
+import{a as n,e as r,o as t,i as o,u as a}from"./entry-b43eb9fc.mjs";const c=n({__name:"TimelineLayer",props:{strips:null},setup(i){const{selectStrip:s}=r();return(l,e)=>(t(),o("div",{class:"layer",onClick:e[0]||(e[0]=()=>a(s)([]))}))}});export{c as default};
