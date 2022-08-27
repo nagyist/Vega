@@ -1,0 +1,1 @@
+import{p as s,o,i as r,m as t,J as _,K as c,j as a}from"./entry-7dd23744.mjs";const d={},p=e=>(_("data-v-41aae72a"),e=e(),c(),e),i=p(()=>a("svg",{fill:"red"},[a("path",{d:"M-8 0 L0 8 L8 0 Z"})],-1)),n=[i];function l(e,u){return o(),r("div",t(e.$attrs,{ref:"el",class:"cursor"}),n,16)}var m=s(d,[["render",l],["__scopeId","data-v-41aae72a"]]);export{m as default};
