@@ -1,0 +1,1 @@
+import{p as o,a as s,o as n,c as r,h as p,q as _,m as c,v as l}from"./entry-9c7e41ff.mjs";const u=s({__name:"VButton",props:{as:null},setup(t){return(a,m)=>{var e;return n(),r(l((e=t.as)!=null?e:"button"),c(a.$attrs,{class:"v-btn"}),{default:p(()=>[_(a.$slots,"default",{},void 0,!0)]),_:3},16)}}});var f=o(u,[["__scopeId","data-v-57ea57a7"]]);export{f as default};
