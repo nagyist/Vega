@@ -1,1 +1,0 @@
-import{a as o,o as u,i as l,j as i,m as p}from"./entry-4d34f830.mjs";const r={style:{width:"100%",display:"flex"}},c=["value"],_=o({__name:"VStringInput",props:{value:null},emits:["input"],setup(n,{emit:a}){function s(e){const t=e.target;a("input",t.value)}return(e,t)=>(u(),l("div",r,[i("input",p(e.$attrs,{value:n.value,onInput:s}),null,16,c)]))}});export{_ as default};

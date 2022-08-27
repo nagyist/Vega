@@ -1,0 +1,1 @@
+import{p as t,o as s,i as r,q as a,m as c}from"./entry-fdc94497.mjs";const _={};function o(e,l){return s(),r("select",c(e.$attrs,{class:"select"}),[a(e.$slots,"default",{},void 0,!0)],16)}var d=t(_,[["render",o],["__scopeId","data-v-1cac80ce"]]);export{d as default};
