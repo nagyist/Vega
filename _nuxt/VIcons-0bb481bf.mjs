@@ -1,1 +1,0 @@
-import{a,o as s,i as o,j as i,m as n}from"./entry-fdc94497.mjs";const r=["width","height"],h=["d"],m=a({__name:"VIcons",props:{size:{type:Number,default:24},path:{type:String,default:""}},setup(e){return(t,c)=>(s(),o("svg",n({width:e.size,height:e.size,viewBox:"0 0 24 24"},t.$attrs),[i("path",{d:e.path},null,8,h)],16,r))}});export{m as default};
