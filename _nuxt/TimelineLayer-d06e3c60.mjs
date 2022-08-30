@@ -1,1 +1,0 @@
-import{a as r}from"./useTimeline-6cb6bf32.mjs";import{a as n,o,f as t,u as a}from"./entry-cf7f9e40.mjs";const c=n({__name:"TimelineLayer",props:{strips:null},setup(i){const{selectStrip:s}=r();return(l,e)=>(o(),t("div",{class:"layer",onClick:e[0]||(e[0]=()=>a(s)([]))}))}});export{c as default};
