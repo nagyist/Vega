@@ -1,6 +1,6 @@
 {
   "../node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-5a88fbbc.mjs",
+    "file": "entry-a6629a66.mjs",
     "src": "../node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -17,6 +17,7 @@
       "components/ImageStripInspector.vue",
       "components/ImageStripUi.vue",
       "components/InspectorColorInput.vue",
+      "components/InspectorContainer.vue",
       "components/InspectorInput.vue",
       "components/InspectorInputBase.vue",
       "components/InspectorPanel.vue",
@@ -31,8 +32,8 @@
       "components/PluginStripInspector.vue",
       "components/PreviewGizmo.vue",
       "components/PreviewPanel.vue",
-      "_ProjectModal-2b066941.mjs",
-      "_RecordingButton-d5cb153f.mjs",
+      "_ProjectModal-654312b7.mjs",
+      "_RecordingButton-7eb3dfe7.mjs",
       "components/RecordingModal.vue",
       "components/RectUi.vue",
       "components/ResizeLeft.vue",
@@ -62,16 +63,17 @@
       "components/VideoAssetListItem.vue",
       "components/VideoStripInspector.vue",
       "components/VideoStripUi.vue",
+      "components/inspectorContainerCache.ts",
       "pages/app.vue",
       "pages/index.vue",
       "../virtual:nuxt:/home/runner/work/Vega/Vega/.nuxt/error-component.mjs"
     ],
     "css": [
-      "entry.4c3f4016.css"
+      "entry.b9794850.css"
     ]
   },
   "../virtual:nuxt:/home/runner/work/Vega/Vega/.nuxt/error-component.mjs": {
-    "file": "error-component-2cb85292.mjs",
+    "file": "error-component-f444a6c0.mjs",
     "src": "../virtual:nuxt:/home/runner/work/Vega/Vega/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -83,20 +85,20 @@
     ]
   },
   "components/AssetInspectorModal.vue": {
-    "file": "AssetInspectorModal-5126fbd8.mjs",
+    "file": "AssetInspectorModal-74252701.mjs",
     "src": "components/AssetInspectorModal.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VStringInput.vue",
       "components/VModal.vue",
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs"
+      "_mdi-646f06ee.mjs"
     ]
   },
   "components/VStringInput.vue": {
-    "file": "VStringInput-4d92088a.mjs",
+    "file": "VStringInput-f82d831b.mjs",
     "src": "components/VStringInput.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -104,84 +106,84 @@
     ]
   },
   "components/VModal.vue": {
-    "file": "VModal-7eaa96e3.mjs",
+    "file": "VModal-1eb40ff9.mjs",
     "src": "components/VModal.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_mdi-6b802aa7.mjs"
+      "_mdi-646f06ee.mjs"
     ]
   },
-  "_useTimeline-7a16e4c3.mjs": {
-    "file": "useTimeline-7a16e4c3.mjs",
+  "_useTimeline-7b6b3688.mjs": {
+    "file": "useTimeline-7b6b3688.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/VIcons.vue": {
-    "file": "VIcons-cc72e6c4.mjs",
+    "file": "VIcons-a78ee007.mjs",
     "src": "components/VIcons.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_mdi-6b802aa7.mjs": {
-    "file": "mdi-6b802aa7.mjs"
+  "_mdi-646f06ee.mjs": {
+    "file": "mdi-646f06ee.mjs"
   },
   "components/AssetListItemBase.vue": {
-    "file": "AssetListItemBase-cf8f94df.mjs",
+    "file": "AssetListItemBase-b33d16fc.mjs",
     "src": "components/AssetListItemBase.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "AssetListItemBase.30bb2cd4.css"
+      "AssetListItemBase.fdd89913.css"
     ]
   },
   "components/AssetListItemErrorIcon.vue": {
-    "file": "AssetListItemErrorIcon-3a5ce13d.mjs",
+    "file": "AssetListItemErrorIcon-0ef4abe1.mjs",
     "src": "components/AssetListItemErrorIcon.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/AssetPanel.vue": {
-    "file": "AssetPanel-832185d5.mjs",
+    "file": "AssetPanel-6af92477.mjs",
     "src": "components/AssetPanel.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/AssetListItemBase.vue",
       "components/AssetInspectorModal.vue",
-      "_useTimeline-7a16e4c3.mjs",
-      "_useDragAndDrop-d8a2676f.mjs",
-      "_index-280d1733.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_useDragAndDrop-72be2b1c.mjs",
+      "_index-23426bb2.mjs",
       "_getIsElectron-dd460f76.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "components/VStringInput.vue",
       "components/VModal.vue"
     ],
     "css": [
-      "AssetPanel.f50d6a7b.css"
+      "AssetPanel.eeaefa77.css"
     ]
   },
-  "_useDragAndDrop-d8a2676f.mjs": {
-    "file": "useDragAndDrop-d8a2676f.mjs",
+  "_useDragAndDrop-72be2b1c.mjs": {
+    "file": "useDragAndDrop-72be2b1c.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_index-280d1733.mjs": {
-    "file": "index-280d1733.mjs",
+  "_index-23426bb2.mjs": {
+    "file": "index-23426bb2.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
@@ -190,28 +192,28 @@
     "file": "getIsElectron-dd460f76.mjs"
   },
   "components/AudioAssetListItem.vue": {
-    "file": "AudioAssetListItem-9e5a8b74.mjs",
+    "file": "AudioAssetListItem-3f5012d2.mjs",
     "src": "components/AudioAssetListItem.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
       "components/AssetListItemErrorIcon.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/AudioStripInspector.vue": {
-    "file": "AudioStripInspector-8f7b616d.mjs",
+    "file": "AudioStripInspector-8d5918bf.mjs",
     "src": "components/AudioStripInspector.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "_getEffect-48db328c.mjs",
       "components/InspectorInput.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VInput.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "_onDragStart-b67a33ef.mjs",
       "components/InspectorInputBase.vue"
     ]
@@ -220,13 +222,13 @@
     "file": "getEffect-48db328c.mjs"
   },
   "components/InspectorInput.vue": {
-    "file": "InspectorInput-104717ba.mjs",
+    "file": "InspectorInput-29055565.mjs",
     "src": "components/InspectorInput.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VInput.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "components/InspectorInputBase.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "_onDragStart-b67a33ef.mjs"
@@ -236,18 +238,18 @@
     ]
   },
   "components/VInput.vue": {
-    "file": "VInput-27ffc274.mjs",
+    "file": "VInput-b0b92366.mjs",
     "src": "components/VInput.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "_onDragStart-b67a33ef.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/InspectorInputBase.vue": {
-    "file": "InspectorInputBase-36d5a4a4.mjs",
+    "file": "InspectorInputBase-56e39196.mjs",
     "src": "components/InspectorInputBase.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -261,19 +263,19 @@
     "file": "onDragStart-b67a33ef.mjs"
   },
   "components/AudioStripUi.vue": {
-    "file": "AudioStripUi-9719f43a.mjs",
+    "file": "AudioStripUi-4c1966b8.mjs",
     "src": "components/AudioStripUi.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "AudioStripUi.3cd7c3ed.css"
+      "AudioStripUi.eea1835c.css"
     ]
   },
   "components/ButtonMenu.vue": {
-    "file": "ButtonMenu-6b032297.mjs",
+    "file": "ButtonMenu-e39899a8.mjs",
     "src": "components/ButtonMenu.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -281,7 +283,7 @@
     ]
   },
   "components/ContainerUi.vue": {
-    "file": "ContainerUi-e6435069.mjs",
+    "file": "ContainerUi-57d5432a.mjs",
     "src": "components/ContainerUi.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -291,20 +293,20 @@
       "../node_modules/nuxt/dist/app/entry.mjs",
       "_onDragStart-b67a33ef.mjs",
       "components/RectUi.vue",
-      "_useDragAndDrop-d8a2676f.mjs"
+      "_useDragAndDrop-72be2b1c.mjs"
     ]
   },
   "components/PanelUi.vue": {
-    "file": "PanelUi-716069fd.mjs",
+    "file": "PanelUi-44792b8e.mjs",
     "src": "components/PanelUi.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useDragAndDrop-d8a2676f.mjs",
+      "_useDragAndDrop-72be2b1c.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/ResizeTop.vue": {
-    "file": "ResizeTop-399cde60.mjs",
+    "file": "ResizeTop-cffaf8cc.mjs",
     "src": "components/ResizeTop.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -312,7 +314,7 @@
     ]
   },
   "components/ResizeLeft.vue": {
-    "file": "ResizeLeft-97e64b7e.mjs",
+    "file": "ResizeLeft-2980c932.mjs",
     "src": "components/ResizeLeft.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -320,7 +322,7 @@
     ]
   },
   "components/RectUi.vue": {
-    "file": "RectUi-e835972e.mjs",
+    "file": "RectUi-9d15f00d.mjs",
     "src": "components/RectUi.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -328,28 +330,28 @@
     ]
   },
   "components/ImageAssetListItem.vue": {
-    "file": "ImageAssetListItem-56638c18.mjs",
+    "file": "ImageAssetListItem-89035d8b.mjs",
     "src": "components/ImageAssetListItem.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "components/AssetListItemErrorIcon.vue",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/ImageStripInspector.vue": {
-    "file": "ImageStripInspector-47ce9fda.mjs",
+    "file": "ImageStripInspector-781af3ed.mjs",
     "src": "components/ImageStripInspector.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "_clone-0e5b969a.mjs",
-      "components/InspectorInput.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
+      "components/InspectorInput.vue",
       "components/VInput.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "_onDragStart-b67a33ef.mjs",
       "components/InspectorInputBase.vue"
     ]
@@ -358,25 +360,25 @@
     "file": "clone-0e5b969a.mjs"
   },
   "components/ImageStripUi.vue": {
-    "file": "ImageStripUi-3daa11ba.mjs",
+    "file": "ImageStripUi-4537e1a9.mjs",
     "src": "components/ImageStripUi.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
-      "_useTimeline-7a16e4c3.mjs",
-      "_usePixPerSec-a1f9d7e8.mjs",
-      "_mdi-6b802aa7.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_usePixPerSec-474d68cf.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_usePixPerSec-a1f9d7e8.mjs": {
-    "file": "usePixPerSec-a1f9d7e8.mjs",
+  "_usePixPerSec-474d68cf.mjs": {
+    "file": "usePixPerSec-474d68cf.mjs",
     "imports": [
-      "_useTimeline-7a16e4c3.mjs"
+      "_useTimeline-7b6b3688.mjs"
     ]
   },
   "components/InspectorColorInput.vue": {
-    "file": "InspectorColorInput-f7d09411.mjs",
+    "file": "InspectorColorInput-5152bc03.mjs",
     "src": "components/InspectorColorInput.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -385,41 +387,65 @@
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VInputBase.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs"
+      "_mdi-646f06ee.mjs"
     ]
   },
   "components/VColorInput.vue": {
-    "file": "VColorInput-16f4c929.mjs",
+    "file": "VColorInput-074056cb.mjs",
     "src": "components/VColorInput.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VInputBase.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/VInputBase.vue": {
-    "file": "VInputBase-de9c7b06.mjs",
+    "file": "VInputBase-f0910e0b.mjs",
     "src": "components/VInputBase.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "components/InspectorPanel.vue": {
-    "file": "InspectorPanel-a28e256c.mjs",
-    "src": "components/InspectorPanel.vue",
+  "components/InspectorContainer.vue": {
+    "file": "InspectorContainer-7c0fb13a.mjs",
+    "src": "components/InspectorContainer.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
-      "_useDragAndDrop-d8a2676f.mjs",
-      "_index-280d1733.mjs",
+      "components/VIcons.vue",
+      "_useTimeline-7b6b3688.mjs",
+      "_mdi-646f06ee.mjs",
+      "components/inspectorContainerCache.ts",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
+  "components/inspectorContainerCache.ts": {
+    "file": "inspectorContainerCache-b86cede5.mjs",
+    "src": "components/inspectorContainerCache.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "../node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "components/InspectorPanel.vue": {
+    "file": "InspectorPanel-ebef3ad5.mjs",
+    "src": "components/InspectorPanel.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "components/InspectorContainer.vue",
+      "_useTimeline-7b6b3688.mjs",
+      "_useDragAndDrop-72be2b1c.mjs",
+      "_index-23426bb2.mjs",
+      "../node_modules/nuxt/dist/app/entry.mjs",
+      "components/VIcons.vue",
+      "_mdi-646f06ee.mjs",
+      "components/inspectorContainerCache.ts"
+    ]
+  },
   "components/InspectorStringInput.vue": {
-    "file": "InspectorStringInput-acaaf674.mjs",
+    "file": "InspectorStringInput-2aab9929.mjs",
     "src": "components/InspectorStringInput.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -429,27 +455,27 @@
     ]
   },
   "components/KeyframeMarker.vue": {
-    "file": "KeyframeMarker-f0f29c95.mjs",
+    "file": "KeyframeMarker-84f3a549.mjs",
     "src": "components/KeyframeMarker.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
-      "_useKeyboard-a488986f.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_useKeyboard-e09c2754.mjs",
       "_onDragStart-b67a33ef.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "KeyframeMarker.bc01ca54.css"
+      "KeyframeMarker.7def4c56.css"
     ]
   },
-  "_useKeyboard-a488986f.mjs": {
-    "file": "useKeyboard-a488986f.mjs",
+  "_useKeyboard-e09c2754.mjs": {
+    "file": "useKeyboard-e09c2754.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/KeyframePanel.vue": {
-    "file": "KeyframePanel-1cce26f7.mjs",
+    "file": "KeyframePanel-9c3360b8.mjs",
     "src": "components/KeyframePanel.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -457,31 +483,31 @@
       "components/TimeView.vue",
       "components/TimelineCursor.vue",
       "components/ScaleScroll.vue",
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_usePixPerSec-a1f9d7e8.mjs",
+      "_usePixPerSec-474d68cf.mjs",
       "components/KeyframeMarker.vue",
       "components/KeyframeSelectRect.vue",
       "_onDragStart-b67a33ef.mjs",
-      "_useKeyboard-a488986f.mjs"
+      "_useKeyboard-e09c2754.mjs"
     ]
   },
   "components/TimeView.vue": {
-    "file": "TimeView-b8634fa4.mjs",
+    "file": "TimeView-70e2389a.mjs",
     "src": "components/TimeView.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_usePixPerSec-a1f9d7e8.mjs",
+      "_usePixPerSec-474d68cf.mjs",
       "_onDragStart-b67a33ef.mjs",
-      "_useTimeline-7a16e4c3.mjs"
+      "_useTimeline-7b6b3688.mjs"
     ],
     "css": [
-      "TimeView.8aa1d591.css"
+      "TimeView.481553fd.css"
     ]
   },
   "components/TimelineCursor.vue": {
-    "file": "TimelineCursor-ab4179c2.mjs",
+    "file": "TimelineCursor-e1546eee.mjs",
     "src": "components/TimelineCursor.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -492,7 +518,7 @@
     ]
   },
   "components/ScaleScroll.vue": {
-    "file": "ScaleScroll-91bc0fa4.mjs",
+    "file": "ScaleScroll-e65f3631.mjs",
     "src": "components/ScaleScroll.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -504,19 +530,19 @@
     ]
   },
   "components/KeyframeSelectRect.vue": {
-    "file": "KeyframeSelectRect-509b97b0.mjs",
+    "file": "KeyframeSelectRect-4ef1d4e5.mjs",
     "src": "components/KeyframeSelectRect.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "KeyframeSelectRect.c4cde831.css"
+      "KeyframeSelectRect.45ce0736.css"
     ]
   },
   "components/LayoutChangeArea.vue": {
-    "file": "LayoutChangeArea-6b930f22.mjs",
+    "file": "LayoutChangeArea-a28aa2ce.mjs",
     "src": "components/LayoutChangeArea.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -527,33 +553,33 @@
     ]
   },
   "components/OperationHistoryPanel.vue": {
-    "file": "OperationHistoryPanel-d099d3cc.mjs",
+    "file": "OperationHistoryPanel-16b62207.mjs",
     "src": "components/OperationHistoryPanel.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useOperation-edb40d6f.mjs",
+      "_useOperation-e4c938df.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_useOperation-edb40d6f.mjs": {
-    "file": "useOperation-edb40d6f.mjs",
+  "_useOperation-e4c938df.mjs": {
+    "file": "useOperation-e4c938df.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/PluginAssetListItem.vue": {
-    "file": "PluginAssetListItem-5514b602.mjs",
+    "file": "PluginAssetListItem-0a5dcf11.mjs",
     "src": "components/PluginAssetListItem.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
       "components/AssetListItemErrorIcon.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/PluginStripInspector.vue": {
-    "file": "PluginStripInspector-aa337642.mjs",
+    "file": "PluginStripInspector-4544d817.mjs",
     "src": "components/PluginStripInspector.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -561,85 +587,85 @@
     ]
   },
   "components/PreviewGizmo.vue": {
-    "file": "PreviewGizmo-285d6dd7.mjs",
+    "file": "PreviewGizmo-2cbe0e87.mjs",
     "src": "components/PreviewGizmo.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
-      "_index-280d1733.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_index-23426bb2.mjs",
+      "../node_modules/nuxt/dist/app/entry.mjs",
       "_onDragStart-b67a33ef.mjs",
-      "_setAnimation-30ab6762.mjs",
-      "../node_modules/nuxt/dist/app/entry.mjs"
+      "_setAnimation-30ab6762.mjs"
     ],
     "css": [
-      "PreviewGizmo.e6294838.css"
+      "PreviewGizmo.50022d56.css"
     ]
   },
   "_setAnimation-30ab6762.mjs": {
     "file": "setAnimation-30ab6762.mjs"
   },
   "components/PreviewPanel.vue": {
-    "file": "PreviewPanel-c831cc31.mjs",
+    "file": "PreviewPanel-4b3b641d.mjs",
     "src": "components/PreviewPanel.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/PreviewGizmo.vue",
       "components/VInput.vue",
-      "_useUpdate-ef84bfa2.mjs",
-      "_useTimeline-7a16e4c3.mjs",
+      "_useUpdate-619274df.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_Recorder-38958d63.mjs",
-      "_index-280d1733.mjs",
+      "_Recorder-bba24a09.mjs",
+      "_index-23426bb2.mjs",
       "_onDragStart-b67a33ef.mjs",
       "_setAnimation-30ab6762.mjs",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs"
+      "_mdi-646f06ee.mjs"
     ]
   },
-  "_useUpdate-ef84bfa2.mjs": {
-    "file": "useUpdate-ef84bfa2.mjs",
+  "_useUpdate-619274df.mjs": {
+    "file": "useUpdate-619274df.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_Recorder-38958d63.mjs": {
-    "file": "Recorder-38958d63.mjs",
+  "_Recorder-bba24a09.mjs": {
+    "file": "Recorder-bba24a09.mjs",
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_ProjectModal-2b066941.mjs": {
-    "file": "ProjectModal-2b066941.mjs",
+  "_ProjectModal-654312b7.mjs": {
+    "file": "ProjectModal-654312b7.mjs",
     "isDynamicEntry": true,
     "imports": [
       "components/VButton.vue",
       "components/VModal.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "_getIsElectron-dd460f76.mjs"
     ]
   },
   "components/VButton.vue": {
-    "file": "VButton-2a2b71a2.mjs",
+    "file": "VButton-c4065eec.mjs",
     "src": "components/VButton.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_RecordingButton-d5cb153f.mjs": {
-    "file": "RecordingButton-d5cb153f.mjs",
+  "_RecordingButton-7eb3dfe7.mjs": {
+    "file": "RecordingButton-7eb3dfe7.mjs",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_Recorder-38958d63.mjs",
+      "_Recorder-bba24a09.mjs",
       "components/RecordingModal.vue"
     ]
   },
   "components/RecordingModal.vue": {
-    "file": "RecordingModal-6dde7f93.mjs",
+    "file": "RecordingModal-86d86746.mjs",
     "src": "components/RecordingModal.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -647,15 +673,15 @@
       "components/VModal.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs"
+      "_mdi-646f06ee.mjs"
     ]
   },
   "components/SelectRect.vue": {
-    "file": "SelectRect-d76fcb52.mjs",
+    "file": "SelectRect-1a69a828.mjs",
     "src": "components/SelectRect.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
@@ -663,7 +689,7 @@
     ]
   },
   "components/SettingsButton.vue": {
-    "file": "SettingsButton-2a1051f7.mjs",
+    "file": "SettingsButton-b551b8ad.mjs",
     "src": "components/SettingsButton.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -673,26 +699,26 @@
       "components/VInputBase.vue",
       "components/VModal.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
-      "_useTimeline-7a16e4c3.mjs"
+      "_mdi-646f06ee.mjs",
+      "_useTimeline-7b6b3688.mjs"
     ]
   },
   "components/SettingsModal.vue": {
-    "file": "SettingsModal-928ca0d4.mjs",
+    "file": "SettingsModal-e14f4169.mjs",
     "src": "components/SettingsModal.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VNumberInput.vue",
       "components/VModal.vue",
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VInputBase.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs"
+      "_mdi-646f06ee.mjs"
     ]
   },
   "components/VNumberInput.vue": {
-    "file": "VNumberInput-71c011d4.mjs",
+    "file": "VNumberInput-b81cece3.mjs",
     "src": "components/VNumberInput.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -701,59 +727,59 @@
     ]
   },
   "components/ShowStatsButton.vue": {
-    "file": "ShowStatsButton-2618c909.mjs",
+    "file": "ShowStatsButton-50776271.mjs",
     "src": "components/ShowStatsButton.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useUpdate-ef84bfa2.mjs",
+      "_useUpdate-619274df.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/StripUi.vue": {
-    "file": "StripUi-ebde6e66.mjs",
+    "file": "StripUi-d465c4e5.mjs",
     "src": "components/StripUi.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
-      "_useOperation-edb40d6f.mjs",
-      "_useKeyboard-a488986f.mjs",
-      "_usePixPerSec-a1f9d7e8.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_useOperation-e4c938df.mjs",
+      "_useKeyboard-e09c2754.mjs",
+      "_usePixPerSec-474d68cf.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "_clone-0e5b969a.mjs",
       "_onDragStart-b67a33ef.mjs"
     ],
     "css": [
-      "StripUi.09dc0ec3.css"
+      "StripUi.53bb06c5.css"
     ]
   },
   "components/TextAssetListItem.vue": {
-    "file": "TextAssetListItem-35b73955.mjs",
+    "file": "TextAssetListItem-f2afe9a8.mjs",
     "src": "components/TextAssetListItem.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
       "components/AssetListItemErrorIcon.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/TextStripInspector.vue": {
-    "file": "TextStripInspector-045cb39e.mjs",
+    "file": "TextStripInspector-f3c97050.mjs",
     "src": "components/TextStripInspector.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/InspectorColorInput.vue",
       "components/InspectorStringInput.vue",
-      "_useTimeline-7a16e4c3.mjs",
-      "_index-280d1733.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_index-23426bb2.mjs",
       "_clone-0e5b969a.mjs",
       "_setAnimation-30ab6762.mjs",
-      "components/InspectorInput.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
+      "components/InspectorInput.vue",
       "components/VColorInput.vue",
       "components/VInputBase.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "components/InspectorInputBase.vue",
       "components/VStringInput.vue",
       "components/VInput.vue",
@@ -761,57 +787,57 @@
     ]
   },
   "components/TextStripUi.vue": {
-    "file": "TextStripUi-c6b3336c.mjs",
+    "file": "TextStripUi-2a65fecd.mjs",
     "src": "components/TextStripUi.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
-      "_useTimeline-7a16e4c3.mjs",
-      "_mdi-6b802aa7.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "TextStripUi.ecff2b8b.css"
+      "TextStripUi.e2b64064.css"
     ]
   },
   "components/TimelineLayer.vue": {
-    "file": "TimelineLayer-89416000.mjs",
+    "file": "TimelineLayer-48539695.mjs",
     "src": "components/TimelineLayer.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "components/TimelinePanel.vue": {
-    "file": "TimelinePanel-d2b2f60b.mjs",
+    "file": "TimelinePanel-e726e8bd.mjs",
     "src": "components/TimelinePanel.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
       "components/StripUi.vue",
-      "_useTimeline-7a16e4c3.mjs",
-      "_useUpdate-ef84bfa2.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_useUpdate-619274df.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_useDragAndDrop-d8a2676f.mjs",
-      "_usePixPerSec-a1f9d7e8.mjs",
-      "_index-280d1733.mjs",
-      "_mdi-6b802aa7.mjs",
+      "_useDragAndDrop-72be2b1c.mjs",
+      "_usePixPerSec-474d68cf.mjs",
+      "_index-23426bb2.mjs",
+      "_mdi-646f06ee.mjs",
       "components/ScaleScroll.vue",
       "components/SelectRect.vue",
       "components/TimeView.vue",
       "components/TimelineCursor.vue",
       "_clone-0e5b969a.mjs",
-      "_useOperation-edb40d6f.mjs",
-      "_useKeyboard-a488986f.mjs",
+      "_useOperation-e4c938df.mjs",
+      "_useKeyboard-e09c2754.mjs",
       "_onDragStart-b67a33ef.mjs"
     ],
     "css": [
-      "TimelinePanel.179c1249.css"
+      "TimelinePanel.d2606858.css"
     ]
   },
   "components/VSelect.vue": {
-    "file": "VSelect-c2a7db7f.mjs",
+    "file": "VSelect-1cd0aa35.mjs",
     "src": "components/VSelect.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -822,75 +848,75 @@
     ]
   },
   "components/VideoAssetListItem.vue": {
-    "file": "VideoAssetListItem-d0d80d7e.mjs",
+    "file": "VideoAssetListItem-15faeed7.mjs",
     "src": "components/VideoAssetListItem.vue",
     "isDynamicEntry": true,
     "imports": [
       "components/VIcons.vue",
       "components/AssetListItemErrorIcon.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "VideoAssetListItem.eaa4eb39.css"
+      "VideoAssetListItem.5ce382f1.css"
     ]
   },
   "components/VideoStripInspector.vue": {
-    "file": "VideoStripInspector-650cc672.mjs",
+    "file": "VideoStripInspector-9d363aab.mjs",
     "src": "components/VideoStripInspector.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
+      "_useTimeline-7b6b3688.mjs",
       "_getEffect-48db328c.mjs",
       "components/InspectorInput.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
       "components/VInput.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "_onDragStart-b67a33ef.mjs",
       "components/InspectorInputBase.vue"
     ]
   },
   "components/VideoStripUi.vue": {
-    "file": "VideoStripUi-ab7d26c3.mjs",
+    "file": "VideoStripUi-ec5949dc.mjs",
     "src": "components/VideoStripUi.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_useTimeline-7a16e4c3.mjs",
-      "_usePixPerSec-a1f9d7e8.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_usePixPerSec-474d68cf.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "VideoStripUi.2b0bdf3f.css"
+      "VideoStripUi.36102226.css"
     ]
   },
   "pages/app.vue": {
-    "file": "app-adf381db.mjs",
+    "file": "app-f9391402.mjs",
     "src": "pages/app.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_RecordingButton-d5cb153f.mjs",
+      "_RecordingButton-7eb3dfe7.mjs",
       "components/ShowStatsButton.vue",
       "components/ContainerUi.vue",
       "components/OperationHistoryPanel.vue",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_useTimeline-7a16e4c3.mjs",
-      "_useOperation-edb40d6f.mjs",
-      "_useKeyboard-a488986f.mjs",
-      "_useUpdate-ef84bfa2.mjs",
-      "_ProjectModal-2b066941.mjs",
+      "_useTimeline-7b6b3688.mjs",
+      "_useOperation-e4c938df.mjs",
+      "_useKeyboard-e09c2754.mjs",
+      "_useUpdate-619274df.mjs",
+      "_ProjectModal-654312b7.mjs",
       "components/ButtonMenu.vue",
       "components/SettingsButton.vue",
       "_clone-0e5b969a.mjs",
       "_getIsElectron-dd460f76.mjs",
-      "_Recorder-38958d63.mjs",
+      "_Recorder-bba24a09.mjs",
       "components/RecordingModal.vue",
       "components/VButton.vue",
       "components/VModal.vue",
       "components/VIcons.vue",
-      "_mdi-6b802aa7.mjs",
+      "_mdi-646f06ee.mjs",
       "components/PanelUi.vue",
-      "_useDragAndDrop-d8a2676f.mjs",
+      "_useDragAndDrop-72be2b1c.mjs",
       "components/ResizeTop.vue",
       "components/ResizeLeft.vue",
       "_onDragStart-b67a33ef.mjs",
@@ -901,7 +927,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-0eac63d1.mjs",
+    "file": "index-ab0ae570.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -910,7 +936,7 @@
     ]
   },
   "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "error-404-3e24ee7b.mjs",
+    "file": "error-404-bbfff0ee.mjs",
     "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -921,7 +947,7 @@
     ]
   },
   "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "error-500-afab51fd.mjs",
+    "file": "error-500-b4172196.mjs",
     "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
