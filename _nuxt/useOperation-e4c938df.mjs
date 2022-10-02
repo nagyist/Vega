@@ -1,1 +1,0 @@
-import{q as r,a0 as a}from"./entry-a6629a66.mjs";const i={history:[{text:"Welcome to the Vega!",time:Date.now()}]};function n(){const t=r("operation",()=>i,"$0rX6tm3jqQ");return{history:a(t.value.history),pushHistory:(e=>o=>{e.value.history.push({text:o,time:Date.now()})})(t)}}export{n as u};
